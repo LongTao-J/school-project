@@ -8,12 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for school-base" enabled="true">
+      <profile name="Annotation profile for school-user" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven-3.8.5/data/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
         <module name="school-gateway" />
         <module name="school-user" />
