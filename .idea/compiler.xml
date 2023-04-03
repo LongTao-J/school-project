@@ -15,10 +15,9 @@
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
-        <module name="school-generator" />
-        <module name="school-base" />
         <module name="school-gateway" />
         <module name="school-user" />
+        <module name="school-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

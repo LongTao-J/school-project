@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/project-school.iml" filepath="$PROJECT_DIR$/.idea/project-school.iml" />
       <module fileurl="file://$PROJECT_DIR$/school-base/school-base.iml" filepath="$PROJECT_DIR$/school-base/school-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/school-gateway/school-gateway.iml" filepath="$PROJECT_DIR$/school-gateway/school-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/school-generator/school-generator.iml" filepath="$PROJECT_DIR$/school-generator/school-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/school-parent/school-parent.iml" filepath="$PROJECT_DIR$/school-parent/school-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/school-user/school-user.iml" filepath="$PROJECT_DIR$/school-user/school-user.iml" />
     </modules>
