@@ -2,16 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for school-base" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+        </processorPath>
+        <module name="school-generator" />
         <module name="school-base" />
+        <module name="school-gateway" />
+        <module name="school-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="genretor" target="1.8" />
       <module name="school-base" target="1.8" />
+      <module name="school-gateway" target="1.8" />
+      <module name="school-generator" target="1.8" />
       <module name="school-parent" target="1.8" />
+      <module name="school-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
