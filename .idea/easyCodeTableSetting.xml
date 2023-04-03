@@ -110,10 +110,10 @@
               </option>
               <option name="name" value="SUser" />
               <option name="preName" value="" />
-              <option name="saveModelName" value="" />
-              <option name="savePackageName" value="" />
-              <option name="savePath" value="" />
-              <option name="templateGroupName" value="" />
+              <option name="saveModelName" value="school-user" />
+              <option name="savePackageName" value="com.school.user" />
+              <option name="savePath" value="./school-user/src/main/java/com/school/user" />
+              <option name="templateGroupName" value="MybatisPlus" />
             </TableInfoDTO>
           </value>
         </entry>
